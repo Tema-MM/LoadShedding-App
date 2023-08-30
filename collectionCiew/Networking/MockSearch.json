@@ -1,0 +1,54 @@
+{
+    "areas": [
+        {
+            "id": "eskde-10-fourwayswestcityofjohannesburggauteng",
+            "name": "Fourways-WEST (10)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        },
+        {
+            "id": "eskde-14-fourwaysext14eastcityofjohannesburggauteng",
+            "name": "Fourways Ext 14-EAST (14)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        },
+        {
+            "id": "eskde-10-fourwaysoutlyingcityofjohannesburggauteng",
+            "name": "Fourways Outlying (10)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        },
+        {
+            "id": "eskde-10-fourwaysext10cityofjohannesburggauteng",
+            "name": "Fourways Ext 10 (10)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        },
+        {
+            "id": "eskde-10-fourwaysext15cityofjohannesburggauteng",
+            "name": "Fourways Ext 15 (10)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        },
+        {
+            "id": "eskde-10-fourwaysext8cityofjohannesburggauteng",
+            "name": "Fourways Ext 8 (10)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        },
+        {
+            "id": "eskde-10-fourwaysext20cityofjohannesburggauteng",
+            "name": "Fourways Ext 20 (10)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        },
+        {
+            "id": "eskde-10-fourwaysext12cityofjohannesburggauteng",
+            "name": "Fourways Ext 12 (10)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        },
+        {
+            "id": "eskde-2-fourwaysext25cityofjohannesburggauteng",
+            "name": "Fourways Ext 25 (2)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        },
+        {
+            "id": "eskde-10-fourwaysext18cityofjohannesburggauteng",
+            "name": "Fourways Ext 18 (10)",
+            "region": "Eskom Direct, City of Johannesburg, Gauteng"
+        }
+    ]
+}

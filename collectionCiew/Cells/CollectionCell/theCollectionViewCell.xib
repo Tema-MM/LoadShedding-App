@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="theCollectionViewCell" id="gTV-IL-0wX" customClass="theCollectionViewCell" customModule="collectionCiew" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="207" height="215"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="207" height="215"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G8O-SV-Fx2">
+                        <rect key="frame" x="4" y="4" width="199" height="222"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="Gj4-j2-Xxg">
+                        <rect key="frame" x="4" y="4" width="199" height="207"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place Gauteng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GwY-wv-aCX">
+                        <rect key="frame" x="13" y="9" width="190" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="23"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2C-R0-O46">
+                        <rect key="frame" x="20.000000000000004" y="46" width="38.333333333333343" height="16"/>
+                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Gj4-j2-Xxg" firstAttribute="centerX" secondItem="G8O-SV-Fx2" secondAttribute="centerX" id="0gq-fn-KVm"/>
+                <constraint firstItem="Gj4-j2-Xxg" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="4Qr-AN-c0l"/>
+                <constraint firstItem="Gj4-j2-Xxg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="7wy-qo-cSB"/>
+                <constraint firstItem="k2C-R0-O46" firstAttribute="top" secondItem="GwY-wv-aCX" secondAttribute="bottom" constant="5" id="PnD-WK-Rby"/>
+                <constraint firstItem="Gj4-j2-Xxg" firstAttribute="top" secondItem="G8O-SV-Fx2" secondAttribute="top" id="b1b-mu-0HW"/>
+                <constraint firstItem="Gj4-j2-Xxg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="fsV-Mn-H2K"/>
+                <constraint firstAttribute="bottom" secondItem="G8O-SV-Fx2" secondAttribute="bottom" constant="-11" id="oOF-RY-SRR"/>
+                <constraint firstItem="k2C-R0-O46" firstAttribute="leading" secondItem="GwY-wv-aCX" secondAttribute="leading" constant="7" id="rrB-Am-MaF"/>
+                <constraint firstItem="Gj4-j2-Xxg" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="sNe-gE-HPY"/>
+                <constraint firstItem="Gj4-j2-Xxg" firstAttribute="leading" secondItem="G8O-SV-Fx2" secondAttribute="leading" id="u48-TG-NpU"/>
+            </constraints>
+            <size key="customSize" width="207" height="215"/>
+            <connections>
+                <outlet property="label" destination="GwY-wv-aCX" id="RPU-Bs-vGB"/>
+                <outlet property="theImage" destination="Gj4-j2-Xxg" id="319-vo-eLu"/>
+                <outlet property="theView" destination="G8O-SV-Fx2" id="jP5-9d-a0N"/>
+            </connections>
+            <point key="canvasLocation" x="203.81679389312976" y="-21.47887323943662"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Image2" width="1000" height="750"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
